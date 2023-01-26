@@ -43,9 +43,6 @@ order:number=1
 name!:string
 price!:number
   addProduct(){
-   
-   /* let valueName= (<HTMLInputElement>document.getElementById("name")).value;
-   let valuePrice= parseInt((<HTMLInputElement>document.getElementById("price")).value); */
    this.products.push({name:this.name,price:this.price})
    this.products=this.products
   }
